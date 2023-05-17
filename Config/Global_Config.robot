@@ -13,13 +13,12 @@ ${DEVICE_NAME}    e8436bf8
 ${Activity_NAME}        com.renterapp.MainActivity
 ${PACKAGE_NAME}    com.renterapp
 ${Automation_NAME}    UiAutomator2
-${app}    /home/rently/Desktop/Robot/Resources/app-release.apk 
 ${appium}        appium
 
 *** Keywords ***
 
 App_Launch
-    Open Application    ${REMOTE_URL}   platformName=${PLATFORM_NAME}     deviceName=${DEVICE_NAME}      appPackage=${PACKAGE_NAME}    appActivity=${Activity_NAME}   automationName=${Automation_NAME}    app=${app}
+    Open Application    ${REMOTE_URL}   platformName=${PLATFORM_NAME}     deviceName=${DEVICE_NAME}      appPackage=${PACKAGE_NAME}    appActivity=${Activity_NAME}   automationName=${Automation_NAME}  
     Sleep    5s
 
 Start Appium
@@ -31,3 +30,4 @@ Start Appium
 Stop Appium
     Terminate All Processes
     Log To Console    Appium Server Stopped
+
