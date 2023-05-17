@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.8.10 on linux)" generated="20230517 14:20:51.245" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.8.10 on linux)" generated="20230517 14:29:35.743" rpa="false" schemaversion="3">
 <suite id="s1" name="Test Cases" source="/home/rently/Desktop/Robot/Test_Suite/Test_Cases.robot">
 <test id="s1-t1" name="Testone" line="10">
 <kw name="App_Launch" library="Global_Config">
@@ -20,32 +20,32 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230517 14:20:51.551" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230517 14:20:51.551" endtime="20230517 14:20:51.552"/>
+<msg timestamp="20230517 14:29:36.441" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230517 14:29:36.440" endtime="20230517 14:29:36.444"/>
 </kw>
-<msg timestamp="20230517 14:20:51.554" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230517 14:20:51.554" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The application at '../Resources/app-release.apk' does not exist or is not accessible
+<msg timestamp="20230517 14:29:36.448" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230517 14:29:36.449" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
 Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '../Resources/app-release.apk' does not exist or is not accessible
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
     at getResponseForW3CError (/usr/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
     at asyncHandler (/usr/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)</msg>
-<status status="FAIL" starttime="20230517 14:20:51.364" endtime="20230517 14:20:51.554"/>
+<status status="FAIL" starttime="20230517 14:29:35.954" endtime="20230517 14:29:36.450"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20230517 14:20:51.554" endtime="20230517 14:20:51.554"/>
+<status status="NOT RUN" starttime="20230517 14:29:36.451" endtime="20230517 14:29:36.451"/>
 </kw>
-<status status="FAIL" starttime="20230517 14:20:51.363" endtime="20230517 14:20:51.555"/>
+<status status="FAIL" starttime="20230517 14:29:35.953" endtime="20230517 14:29:36.453"/>
 </kw>
-<status status="FAIL" starttime="20230517 14:20:51.363" endtime="20230517 14:20:51.555">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The application at '../Resources/app-release.apk' does not exist or is not accessible
+<status status="FAIL" starttime="20230517 14:29:35.952" endtime="20230517 14:29:36.454">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
 Stacktrace:
-UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '../Resources/app-release.apk' does not exist or is not accessible
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
     at getResponseForW3CError (/usr/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
     at asyncHandler (/usr/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)</status>
 </test>
 <doc>Test Suite</doc>
-<status status="FAIL" starttime="20230517 14:20:51.246" endtime="20230517 14:20:51.555"/>
+<status status="FAIL" starttime="20230517 14:29:35.744" endtime="20230517 14:29:36.456"/>
 </suite>
 <statistics>
 <total>
@@ -58,6 +58,6 @@ UnknownError: An unknown server-side error occurred while processing the command
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20230517 14:20:51.554" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230517 14:29:36.448" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
 </errors>
 </robot>
