@@ -11,4 +11,8 @@ Suite Teardown    Stop Appium
 *** Test Cases ***
 
 Testone
-    Sign-up    $phone_num    $name1    $name2    $email    $password
+    App_Launch
+    Sign-up    ${phno}    ${nam1}    ${nam2}    ${ema}    ${pass}
+    
+
+    

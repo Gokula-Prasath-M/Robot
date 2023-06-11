@@ -36,7 +36,3 @@ Sign-up
     Click Element    xpath=//android.view.ViewGroup[@content-desc="PROFILE_SCREEN_SIGN_IN"]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup/android.widget.TextView
     Sleep    5s
 
-
-Sign-In
-    App_Launch
-    Sign-up    ${num}    ${nam}    ${name}    ${ema}    ${pas}
