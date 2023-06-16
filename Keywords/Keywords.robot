@@ -24,6 +24,6 @@ Sign-up
     Input Text    ${lastname}    ${name2}
     Sleep    5s
     Input Text    ${emailid}    ${email}
-    Sleep    5s
+    Sleep    10s
     Input Text    ${passwordfield}    ${password}
     Sleep    5s
