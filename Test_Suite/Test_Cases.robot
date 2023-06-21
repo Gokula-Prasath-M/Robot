@@ -13,12 +13,14 @@ Suite Teardown       Emulator_config.Stop Appium
 *** Test Cases ***
 
 Testone
+    [Documentation]    Fist Test case
     Sleep    10s
     Click Element    ${backbutton}
     Sleep    5s
     
     
 Testtwo
+    [Documentation]    Second Test Case
     Sleep    10s
     Click Element    ${backbutton}
     Sleep    5s
