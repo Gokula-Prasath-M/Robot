@@ -3,7 +3,7 @@ Documentation    Keywords for automation
 Library          AppiumLibrary
 Resource         ../Data/Test_Data.robot
 Resource         ../Data/Android_Locator.robot
-Resource    ../Config/Global_Config.robot
+Resource         ../Config/Global_Config.robot
 
 
 *** Keywords ***

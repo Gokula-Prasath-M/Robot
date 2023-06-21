@@ -1,18 +1,25 @@
 *** Settings ***
-Documentation    Test Suite
-Library          AppiumLibrary
-Resource    ../Data/Android_Locator.robot
-Resource         ../Keywords/Keywords.robot
-Resource         ../Config/Global_Config.robot
-Resource         ../Data/Test_Data.robot
-Suite Setup    Start Appium
-Suite Teardown    Stop Appium
+Documentation        Test Suite
+Library              AppiumLibrary
+Resource             ../Data/Android_Locator.robot
+Resource             ../Keywords/Keywords.robot
+Resource             ../Config/Emulator_config.robot
+Resource             ../Data/Test_Data.robot
+Suite Setup          Emulator_config.App_Launch
+Test Setup           Activate Application    ${PACKAGE_NAME}
+Test Teardown        Quit Application    
+Suite Teardown       Emulator_config.Stop Appium
 
 *** Test Cases ***
 
 Testone
-    App_Launch
-    Sign-up    ${phno}    ${nam1}    ${nam2}    ${ema}    ${pass}
+    Sleep    10s
+    Click Element    ${backbutton}
+    Sleep    5s
     
-
+    
+Testtwo
+    Sleep    10s
+    Click Element    ${backbutton}
+    Sleep    5s
     

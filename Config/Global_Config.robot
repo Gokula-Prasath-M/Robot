@@ -1,19 +1,19 @@
 *** Settings ***
-Documentation   Android test configuration file
+Documentation    Android test configuration file
 Library          AppiumLibrary
 Library          Process
 Library          OperatingSystem
 
 
 *** Variables ***
-${REMOTE_URL}     http://0.0.0.0:4723/wd/hub
-${PLATFORM_NAME}    Android
-${PLATFORM_VERSION}    9
-${DEVICE_NAME}    988e10375a354e483930
-${Activity_NAME}        com.renterapp.MainActivity
-${PACKAGE_NAME}    com.renterapp
+${REMOTE_URL}         http://0.0.0.0:4723/wd/hub
+${PLATFORM_NAME}      Android
+${PLATFORM_VERSION}   9
+${DEVICE_NAME}        988e10375a354e483930
+${Activity_NAME}      com.renterapp.MainActivity
+${PACKAGE_NAME}       com.renterapp
 ${Automation_NAME}    UiAutomator2
-${appium}        appium
+${appium}             appium
 
 *** Keywords ***
 
