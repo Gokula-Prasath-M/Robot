@@ -14,7 +14,7 @@ ${Activity_NAME}      com.renterapp.MainActivity
 ${PACKAGE_NAME}       com.renterapp
 ${Automation_NAME}    UiAutomator2
 ${appium}             appium
-${app}                /home/rently/Documents/Robot/Resources/app.apk     
+${app}                /home/circleci/project/Resources/app.apk     
     
 *** Keywords ***
 
